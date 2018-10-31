@@ -1,0 +1,19 @@
+[user]
+    name = Nick Stepa
+    email = nick@stepa.by
+[push]
+    default = simple
+[color]
+    ui = auto
+[apply]
+    whitespace = nowarn
+[pull]
+    rebase = true
+[rebase]
+    autostash = true
+[core]
+    ignorecase = false
+[log]
+    abbrevCommit = true
+[alias]
+    yolo = !git add -A && git commit -m \"$(curl -s whatthecommit.com/index.txt)\"
