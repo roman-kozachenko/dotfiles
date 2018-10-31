@@ -69,3 +69,11 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 fi
+
+function current_path() {
+    echo $PWD;
+}
+
+function current_path_prefix() {
+    :
+}

@@ -22,10 +22,4 @@ set -o noclobber
 export EDITOR="vim"
 export PAGER="less"
 
-function current_path() {
-    echo $PWD;
-}
-
-function current_path_prefix() {
-    :
-}
+mesg n || true
