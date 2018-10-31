@@ -1,4 +1,3 @@
-shopt -s expand_aliases
 if [ $(uname) = "Darwin" ]; then
     alias ls="ls -G -F -h"
 else
