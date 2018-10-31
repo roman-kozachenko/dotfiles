@@ -6,10 +6,11 @@ set showmatch
 set title
 set confirm
 set autoread
-let mapleader=","
+let mapleader=" "
 set number
 set expandtab
-set tabstop=2
+set tabstop=4
+set shiftwidth=4
 set listchars=tab:→→,trail:⋅
 set list
 set incsearch
@@ -57,7 +58,7 @@ vnoremap <leader>d ""d
 vnoremap <leader>c ""c
 
 colorscheme elflord
-let $BASH_ENV = "~/.aliases"
+let $BASH_ENV = "~/.profile"
 
 execute pathogen#infect()
 let g:rainbow_active = 1 " 0 if you want to enable it later via :RainbowToggle
