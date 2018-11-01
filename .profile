@@ -4,6 +4,7 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
+shopt -s expand_aliases
 if [ -f "$HOME/.aliases" ]; then
     . "$HOME/.aliases"
 fi
