@@ -14,5 +14,7 @@
     ignorecase = false
 [log]
     abbrevCommit = true
+[fetch]
+    recurseSubmodules = true
 [alias]
     yolo = !git add -A && git commit -m \"$(curl -s whatthecommit.com/index.txt)\"
