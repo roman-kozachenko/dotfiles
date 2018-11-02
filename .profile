@@ -22,5 +22,3 @@ set -o noclobber
 
 export EDITOR="vim"
 export PAGER="less"
-
-mesg n || true
