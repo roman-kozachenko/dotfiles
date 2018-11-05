@@ -22,6 +22,7 @@ set noswapfile
 set nobackup
 set wildmode=longest,list,full
 set wildmenu
+set cursorline
 
 menu Encoding.koi8-r  :e ++enc=koi8-r<CR>
 menu Encoding.cp1251  :e ++enc=cp1251<CR>
@@ -31,6 +32,7 @@ menu Encoding.utf-8   :e ++enc=utf-8<CR>
 map <F5> :emenu Encoding.<Tab>
 
 let NERDTreeDirArrows = 1
+let NERDTreeQuitOnOpen=1
 nmap <F2> :NERDTreeFind<cr>
 
 nmap <F3> :set number! number?<cr>
