@@ -23,6 +23,8 @@ set nobackup
 set wildmode=longest,list,full
 set wildmenu
 set cursorline
+set showtabline=2
+set signcolumn=yes " for vim-signify
 
 menu Encoding.koi8-r  :e ++enc=koi8-r<CR>
 menu Encoding.cp1251  :e ++enc=cp1251<CR>
@@ -63,6 +65,5 @@ colorscheme elflord
 let $BASH_ENV = "~/.profile"
 
 execute pathogen#infect()
-let g:rainbow_active = 1 " 0 if you want to enable it later via :RainbowToggle
 
 filetype plugin indent on
