@@ -25,6 +25,7 @@ set wildmenu
 set cursorline
 set showtabline=2
 set signcolumn=yes " for vim-signify
+set matchpairs+=<:>
 
 menu Encoding.koi8-r  :e ++enc=koi8-r<CR>
 menu Encoding.cp1251  :e ++enc=cp1251<CR>
